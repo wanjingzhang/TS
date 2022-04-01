@@ -1,0 +1,26 @@
+{
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "./src/hello/**/*"
+    ],
+    "compilerOptions":{
+        "target":"es2015",
+        "module": "amd",
+        // "lib":["dom"],
+        "outDir":"./dist",
+        // "outFile":"./dist/app.js",
+        // "allowJs":true,
+        // "checkJs":true,
+        // "removeComments":true,
+        "noEmit":false,
+        "noEmitOnError":true,
+        "alwaysStrict":true,
+        "noImplicitAny":true,
+        "noImplicitThis":true,
+        "strictNullChecks":true,
+        "strict":true,
+    },
+    
+}
