@@ -10,9 +10,9 @@ console.log(hi);
 // }   
 
 // 2. noImplicitThis
-function fn2(){  // 'this' implicitly has type 'any' because it does not have a type annotation.
-    console.log(this);
-}
+// function fn2(){  // 'this' implicitly has type 'any' because it does not have a type annotation.
+//     console.log(this);
+// }
 
 // 3. strictNullChecks
 let box1 = document.getElementById("box");
