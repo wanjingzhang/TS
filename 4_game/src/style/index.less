@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    pointer-events: none;
+    user-select: none;
 }
 body{
     font:bold 20px "Courier";
@@ -49,7 +51,7 @@ body{
             flex-flow: row wrap;
             // 设置主轴和侧轴空白空间分配到元素之间
             justify-content: space-between;
-            align-content: space-between;
+            align-content: space-between; 
 
             &>div{
                 width: 4px;

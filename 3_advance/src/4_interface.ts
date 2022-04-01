@@ -7,7 +7,8 @@
     } 
     const obj:myType = {
         name:"ss",
-        age:11
+        age:11,
+        class:"14"
     }
     console.log(obj);
 
@@ -17,7 +18,7 @@
         name:string;
         age:number;
     }
-    interface myInterface{
+    interface myInterface{ // 接口自动合并
         gender:string;
     }
     const obj2:myInterface ={

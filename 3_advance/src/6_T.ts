@@ -4,7 +4,7 @@ function fn<T>(a:T):T{ // T就是T类型，它只有在函数运行时才可以�
 }
 // 使用时，直接调用
 fn(10)// T=number,不指定泛型，类型的自动推断
-fn<string>('hello')// 指定泛型
+console.log(fn<string>('hello')) // 指定泛型
 // 2. 多个泛型
 function fn2<T,K>(a:T,b:K):T{
     console.log(b);
@@ -15,7 +15,7 @@ fn2<number,string>(123,'hello');
 interface Inter{
     length:number;
 }
-function fn3<T extends Inter>(a:T):number{// 泛型T必须时Inter的一个实现类(子类)
+function fn3<T extends Inter>(a:T):number{// 泛型T必须为Inter的一个实现类(子类)
     return a.length;
 }
 fn3({length:10})// 用一个泛型，它为inter的实现类

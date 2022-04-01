@@ -2,7 +2,8 @@
 (function () {
     const obj = {
         name: "ss",
-        age: 11
+        age: 11,
+        class: "14"
     };
     console.log(obj);
     const obj2 = {

@@ -5,7 +5,7 @@ function fn(a) {
 }
 // 使用时，直接调用
 fn(10); // T=number,不指定泛型，类型的自动推断
-fn('hello'); // 指定泛型
+console.log(fn('hello')); // 指定泛型
 // 2. 多个泛型
 function fn2(a, b) {
     console.log(b);

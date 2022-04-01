@@ -69,6 +69,7 @@ class GameControl{
             this.snake.addBody();
             console.log('吃到食物了');
         }
+        
         try{
             this.snake.X = X;
             this.snake.Y = Y;

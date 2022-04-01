@@ -24,3 +24,4 @@ const per = new Person();
 // console.log(per)
 // console.log(per.name,Person.age,Person.department);
 per.sayHello();
+Person.sayHello2();
