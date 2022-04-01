@@ -8,7 +8,7 @@
     "compilerOptions":{
         "target":"es2015",
         "module": "amd",
-        // "lib":["dom"],
+        // "lib":["dom"], 
         "outDir":"./dist",
         // "outFile":"./dist/app.js",
         // "allowJs":true,
