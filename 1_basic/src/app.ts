@@ -1,13 +1,13 @@
 import {hi} from './m.js'
 let a = 'abc'
 let hh = 10; 
-// hh = "abc"
+// hh = "abcd"
 console.log(hi); 
 
 // 1. noImplicitAny
 // function sum(s1,s2){
 //     return s1+s2
-// }
+// }   
 
 // 2. noImplicitThis
 function fn2(){  // 'this' implicitly has type 'any' because it does not have a type annotation.
