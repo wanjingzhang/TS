@@ -78,6 +78,12 @@ makeNoise(dog);
     * “tsserver”作为 TypeScript 独立服务器独立服务器包含编译器和语言服务，
     * “tsc”作为 TypeScript 编译器，编辑器和 IDE 可以利用它们来提供智能代码补全。
 
+1. 编译命令
+```
+    tsc main.ts // Compile a specific file (main.ts) to JavaScript
+    tsc src/*.ts // Compile any .ts files under the 'src' folder to JavaScript
+    tsc app.ts util.ts --outfile index.js // Compile two TypeScript files (app.ts and util.ts) into a single JavaScript file (index.js)
+```
 
 
 
@@ -91,3 +97,8 @@ makeNoise(dog);
 
 
 
+
+
+
+
+1. [手册](https://www.typescriptlang.org/tsconfig)
