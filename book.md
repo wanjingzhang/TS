@@ -75,7 +75,7 @@ makeNoise(dog);
     * 默认函数参数
 
 1. 在 TypeScript 安装过程中，会安装两个可执行文件：tsserver，tsc编译器。
-    * “tsserver”作为 TypeScript 独立服务器独立服务器包含编译器和语言服务，
+    * “tsserver”作为 TypeScript 独立服务器独立服务器包含编译器和语言服务，它主要由集成开发环境 (IDE) 使用来提供 IntelliSense 支持。
     * “tsc”作为 TypeScript 编译器，编辑器和 IDE 可以利用它们来提供智能代码补全。
 
 1. 编译命令
@@ -84,7 +84,7 @@ makeNoise(dog);
     tsc src/*.ts // Compile any .ts files under the 'src' folder to JavaScript
     tsc app.ts util.ts --outfile index.js // Compile two TypeScript files (app.ts and util.ts) into a single JavaScript file (index.js)
 ```
-
+1. 探索类型系统 。。。
 
 
 
@@ -102,3 +102,4 @@ makeNoise(dog);
 
 
 1. [手册](https://www.typescriptlang.org/tsconfig)
+1. 工具：madge工具模块
