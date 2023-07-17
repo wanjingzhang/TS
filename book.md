@@ -1,4 +1,6 @@
-### 标记联盟：ts编译成js后类型被删除，tagged union是在js运行时识别类型的机制 
+##### 1. TS编译器功能：检查错误，编译ts为js
+
+##### 1. 标记联盟：ts编译成js后类型被删除，tagged union是在js运行时识别类型的机制 
 ```
 interface Dog {
     kind: 'dog'; // Tagged union
@@ -24,3 +26,5 @@ const dog: Dog = {
 };
 makeNoise(dog);
 ```
+
+
